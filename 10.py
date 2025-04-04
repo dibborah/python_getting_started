@@ -1,4 +1,4 @@
-# Math Function
+# Math module Function
 
 import math
 
