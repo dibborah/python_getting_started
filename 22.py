@@ -1,6 +1,6 @@
 # Lists methods 
 
-numbers = [2, 1, 5, 7, 5, 4, 5]
+# numbers = [2, 1, 5, 7, 5, 4, 5]
 
 # append()
 # insert()
@@ -44,3 +44,21 @@ numbers = [2, 1, 5, 7, 5, 4, 5]
 
 # print(numbers)
 # print(numbers2)
+
+# Task: 
+
+# Write a program to remove the duplicated in a list 
+numbers = [3,3,11,5,5,5,6,7]
+
+# numbers.sort()
+
+# for number in numbers:
+#     if numbers.count(number) > 1:
+#         numbers.remove(number)
+# print(numbers)
+
+uniques = []
+for number in numbers:
+    if number not in uniques:
+        uniques.append(number)
+print(uniques)
