@@ -19,4 +19,33 @@ point1 = Point(10, 20)
 # print(point1.y, point1.x)
 
 point1.x = 100
-print(point1.x)
+# print(point1.x)
+
+
+# Task: 
+
+# Person
+#   - name
+#   - talk()
+
+
+# Solution
+class Person:
+    def __init__(self, name):
+        self.name = name
+
+    def talk(self):
+        # print('talk!')
+        print(f'Hi, I am {self.name}!')
+
+
+kriya = Person('Kriya Saikia')
+
+print(kriya.name)
+kriya.talk()
+
+
+arpan = Person('Arpan Borah')
+
+print(arpan.name)
+arpan.talk()
